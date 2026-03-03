@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inboka - Under utveckling</title>
+    <style>
+        :root {
+            --bg-color: #F6F0D7;
+            --accent-light: #C5D89D;
+            --accent-mid: #9CAB84;
+            --brand-dark: #89986D;
+            --text-main: #4a513d; /* En mörkare variant av din mörkaste färg för läsbarhet */
+        }
+
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text-main); 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            text-align: center; 
+        }
+
+        .container { 
+            max-width: 600px; 
+            padding: 2.5rem; 
+        }
+
+        .badge { 
+            background: var(--accent-mid); 
+            color: white; 
+            padding: 0.6rem 1.2rem; 
+            border-radius: 99px; 
+            font-size: 0.8rem; 
+            font-weight: 700; 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 { 
+            font-size: 3.5rem; 
+            margin: 0; 
+            color: var(--brand-dark); 
+            letter-spacing: -2px; 
+        }
+
+        p { 
+            font-size: 1.2rem; 
+            color: var(--text-main); 
+            line-height: 1.6; 
+            margin-top: 1.5rem;
+        }
+
+        .features { 
+            margin-top: 2.5rem; 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 1.5rem; 
+        }
+
+        .feature { 
+            background: var(--accent-light); 
+            padding: 1.5rem; 
+            border-radius: 12px; 
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .feature strong {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--brand-dark);
+            font-size: 1.3rem;
+        }
+
+        .cta-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            border: 2px dashed var(--accent-mid);
+            border-radius: 20px;
+        }
+
+        a { 
+            color: var(--brand-dark); 
+            text-decoration: underline; 
+            font-weight: 700; 
+        }
+
+        a:hover {
+            color: var(--accent-mid);
+        }
+
+        .footer { 
+            margin-top: 4rem; 
+            font-size: 0.8rem; 
+            color: var(--accent-mid); 
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">Coming Soon</div>
+        <h1>Inboka</h1>
+        <p>Vi bygger nästa generations bokningssystem för svenska verksamheter. Enklare för dina kunder, billigare för dig.</p>
+        
+        <div class="features">
+            <div class="feature">
+                <strong>Enligt Behov</strong>
+                Packet utan dyra dolda avgifter och tilläg med fasta priser!
+            </div>
+            <div class="feature">
+                <strong>Support</strong>
+                Hjälp direkt dygnet runt
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <strong>Vill du bli en av våra 10 pilotkunder?</strong><br>
+            Just nu letar vi efter salonger som vill testa Inboka först av alla.<br>
+            <p><a href="mailto:info@inboka.se">Skicka ett mejl till oss</a></p>
+        </div>
+
+        <div class="footer">All rights reserved© - INBOKA &bull; 2026</div>
+    </div>
+</body>
+</html>
